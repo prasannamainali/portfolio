@@ -1,540 +1,304 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Prasanna Mainali | SRE & DevOps & Cloud Operations Engineer</title>
-
+    <title>Prasanna Mainali | Applications Support Senior Analyst & Technical L2 SRE</title>
     <style>
-
         :root {
-
             --primary-blue: #1e3a5f;
-
             --accent-red: #800020;
-
             --bg-light: #f4f7f6;
-
             --text-dark: #333;
-
             --white: #ffffff;
-
         }
-
-
-
         * {
-
             box-sizing: border-box;
-
             margin: 0;
-
             padding: 0;
-
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
         }
-
-
-
         body {
-
             background-color: var(--bg-light);
-
             color: var(--text-dark);
-
             line-height: 1.6;
-
         }
-
-
-
         header {
-
             background-color: var(--primary-blue);
-
             color: var(--white);
-
             padding: 4rem 2rem;
-
             text-align: center;
-
         }
-
-
-
         .container {
-
             max-width: 1000px;
-
             margin: 0 auto;
-
             padding: 2rem;
-
         }
-
-
-
         .profile-section {
-
             display: flex;
-
             align-items: center;
-
             gap: 2rem;
-
             background: var(--white);
-
             padding: 2rem;
-
             border-radius: 8px;
-
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-
             margin-top: -3rem;
-
         }
-
-
-
         .profile-img {
-
             width: 200px;
-
             height: 250px;
-
             object-fit: cover;
-
             border-radius: 4px;
-
             border: 3px solid var(--accent-red);
-
         }
-
-
-
         .profile-text h1 {
-
-            font-size: 2.5rem;
-
+            font-size: 2.2rem;
             color: var(--primary-blue);
-
         }
-
-
-
+        .profile-text h2 {
+            font-size: 1.1rem;
+            color: var(--accent-red);
+            border-bottom: none;
+            margin-bottom: 0.5rem;
+            text-transform: none;
+            letter-spacing: normal;
+        }
         .contact-info {
-
             margin-top: 10px;
-
             font-size: 0.9rem;
-
         }
-
-
-
         .contact-info a {
-
             color: var(--accent-red);
-
             text-decoration: none;
-
             margin-right: 15px;
-
             font-weight: bold;
-
         }
-
-
-
         section {
-
             margin-top: 3rem;
-
         }
-
-
-
         h2 {
-
             border-bottom: 3px solid var(--accent-red);
-
             display: inline-block;
-
             margin-bottom: 1.5rem;
-
             color: var(--primary-blue);
-
             text-transform: uppercase;
-
             letter-spacing: 1px;
-
         }
-
-
-
         .skills-grid {
-
             display: grid;
-
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 1rem;
-
         }
-
-
-
         .skill-card {
-
             background: var(--white);
-
             padding: 1rem;
-
             border-left: 4px solid var(--primary-blue);
-
             border-radius: 4px;
-
         }
-
-
-
         .experience-item {
-
             margin-bottom: 2rem;
-
             background: var(--white);
-
             padding: 1.5rem;
-
             border-radius: 8px;
-
         }
-
-
-
         .job-header {
-
             display: flex;
-
             justify-content: space-between;
-
             align-items: center;
-
             margin-bottom: 0.5rem;
-
         }
-
-
-
         .job-title {
-
             font-weight: bold;
-
             color: var(--accent-red);
-
-            font-size: 1.2rem;
-
+            font-size: 1.1rem;
         }
-
-
-
+        .job-subheading {
+            font-weight: bold;
+            color: var(--primary-blue);
+            margin: 1rem 0 0.5rem 0;
+        }
         .job-date {
-
             font-style: italic;
-
             color: #666;
-
+            font-size: 0.9rem;
         }
-
-
-
+        .experience-item ul {
+            padding-left: 1.2rem;
+        }
+        .experience-item li {
+            margin-bottom: 0.4rem;
+        }
         .cert-list {
-
             list-style: none;
-
         }
-
-
-
         .cert-item {
-
             background: var(--primary-blue);
-
             color: white;
-
             padding: 0.8rem;
-
             margin-bottom: 0.5rem;
-
             border-radius: 4px;
-
             display: flex;
-
             justify-content: space-between;
-
         }
-
-
-
+        .cert-item.in-progress {
+            background: #4a6572;
+        }
         footer {
-
             text-align: center;
-
             padding: 3rem;
-
             color: #777;
-
             font-size: 0.8rem;
-
         }
-
-
-
         @media (max-width: 768px) {
-
             .profile-section {
-
                 flex-direction: column;
-
                 text-align: center;
-
                 margin-top: 0;
-
             }
-
             .job-header {
-
                 flex-direction: column;
-
                 align-items: flex-start;
-
             }
-
         }
-
     </style>
-
 </head>
-
 <body>
+    <header>
+        <h1>Prasanna Mainali</h1>
+        <p>Applications Support Senior Analyst | Technical L2 SRE | DevOps Engineer</p>
+    </header>
 
-
-
-<header>
-
-    <h1>Prasanna Mainali</h1>
-
-    <p>SRE /DevOps / Cloud Operations Engineer</p>
-
-</header>
-
-
-
-<div class="container">
-
-    <div class="profile-section">
-
-        <img src="portfolio.png" alt="Prasanna Mainali" class="profile-img">
-
-        <div class="profile-text">
-
-            <h1>About Me</h1>
-
-             <p>DevOps / Cloud Operations Engineer with 4+ years of experience supporting cloud platforms and
-                production services using AWS and GCP, infrastructure-as-code, and CI/CD automation. Expertise in Splunk Enterprise SRE, managing over 20 cluster masters and 1000s of peers for cybersecurity feeds, ensuring advanced monitoring, real-time threat detection, and operational excellence. Strong focus on
-                reliability practices (SLIs/SLOs), monitoring/logging, and operational improvements that reduce incident
-                detection time and speed up recovery. Recently earned the <strong>Certified Kubernetes Administrator (CKA)</strong>.</p>
-
-            <div class="contact-info">
-
-                <a href="mailto:mainaliprasanna@gmail.com">mainaliprasanna@gmail.com</a>
-
-                <a href="https://www.linkedin.com/in/prasanna-mainali-066475182/">Linkedin</a>
-
-                <span>📍 Fort Worth, TX</span>
-
+    <div class="container">
+        <div class="profile-section">
+            <img src="portfolio.png" alt="Prasanna Mainali" class="profile-img">
+            <div class="profile-text">
+                <h1>About Me</h1>
+                <p>Applications Support, DevOps, and Site Reliability Engineer with experience supporting complex enterprise applications across non-production and production environments, CI/CD platforms, and large-scale Splunk observability and security-monitoring services. Skilled in L2 application support, environment stability, service readiness, production deployment support, deployment troubleshooting, incident triage, PMR/RCA documentation, runbook development, and stakeholder reporting.</p>
+                <div class="contact-info">
+                    <a href="mailto:mainaliprasanna@gmail.com">mainaliprasanna@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/prasanna-mainali-066475182/">LinkedIn</a>
+                    <span>📞 (469) 831-5316</span>
+                    <span>📍 Fort Leonard Wood, MO</span>
+                </div>
             </div>
-
         </div>
 
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <strong>App, Platform & Cloud Support</strong><br>
+                    Non-production support, UAT, OpenShift, Kubernetes, AWS, GCP, Azure, VMs, WebSphere (WAS ND), Linux, Windows
+                </div>
+                <div class="skill-card">
+                    <strong>Observability & SRE</strong><br>
+                    Splunk Enterprise, Grafana, AppDynamics, GCP Monitoring, ELK Stack, Prometheus, OpenShift & Host Logs
+                </div>
+                <div class="skill-card">
+                    <strong>CI/CD & Release Engineering</strong><br>
+                    Jenkins, Tekton, Harness, Git, YAML, Maven, BMC Deployment Manager, Helm, Ansible, Terraform, Docker
+                </div>
+                <div class="skill-card">
+                    <strong>Security & Artifacts</strong><br>
+                    SonarQube, Snyk, JFrog Artifactory, JFrog Container Registry, Security Scanning
+                </div>
+                <div class="skill-card">
+                    <strong>Languages & Frameworks</strong><br>
+                    Python, Bash, Java, JavaScript, Spring Boot, Node.js, Microservices, APIs, Web Services
+                </div>
+                <div class="skill-card">
+                    <strong>Service Management</strong><br>
+                    P1/P2 Incident Triage, PMR, RCA, Problem & Risk Management, Change Management, Runbooks, ITIL
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="job-header">
+                    <span class="job-title">Citi (Contract via Tata Consultancy Services)</span>
+                    <span class="job-date">July 2022 – Present</span>
+                </div>
+                <p><em>DevOps Engineer | Site Reliability Engineer | Splunk Platform Operations Engineer</em></p>
+                
+                <div class="job-subheading">System Architecture Senior | Splunk Platform Operations — CISO & SOC (Jan 2026 – Present)</div>
+                <ul>
+                    <li>Operate and maintain enterprise Splunk production environments supporting 100+ partner teams, Office of the CISO, and SOC operations.</li>
+                    <li>Support distributed Splunk infrastructure comprising 3,000+ indexers, hundreds of search heads, 50+ indexer-cluster manager nodes, and thousands of Windows/Linux forwarders.</li>
+                    <li>Perform operational maintenance, environment cleanup, health checks, capacity support, and troubleshooting to sustain data ingestion, search availability, and security-monitoring continuity.</li>
+                    <li>Partner with CISO and SOC stakeholders to support security monitoring, cybersecurity log availability, threat-detection workflows, and incident-response processes.</li>
+                    <li>Coordinate cross-team operational changes and resolve issues involving indexer clusters, search-head environments, and data-forwarding pipelines.</li>
+                </ul>
+
+                <div class="job-subheading">Production Support | Site Reliability Engineering — Non-Production & Production Stability — USPBW (Nov 2024 – Dec 2025)</div>
+                <ul>
+                    <li>Provided L2 application and SRE support for business-critical applications and microservices, emphasizing non-production stability and deployment health.</li>
+                    <li>Supported UAT, performance, and production deployments by validating change requirements, coordinating smoke tests, triaging failures, and communicating risks.</li>
+                    <li>Monitored application health and service performance using Grafana, AppDynamics, OpenShift logs, host logs, and internal tools.</li>
+                    <li>Triaged post-deployment incidents by analyzing logs, validating configurations, assessing impact, and coordinating remediation within SLAs.</li>
+                    <li>Participated in PMR and RCA calls for service-impacting events; documented findings, action items, corrective actions, and prevention opportunities.</li>
+                    <li>Maintained operational runbooks, created weekly operational reports, and contributed to retrospective meetings covering service health and incident trends.</li>
+                </ul>
+
+                <div class="job-subheading">Production Support | DevOps / CI-CD Engineering — PBWM (July 2022 – Oct 2024)</div>
+                <ul>
+                    <li>Supported North America Consumer application teams through CI/CD enablement, non-production deployment support, environment readiness validation, and release troubleshooting.</li>
+                    <li>Maintained YAML-driven Jenkins deployment scripts supporting Spring Boot, Node.js, Python, file-copy, and WebSphere (WAS ND) workloads.</li>
+                    <li>Supported Maven build execution, application packaging, unit-test stages, SonarQube quality checks, Snyk security scanning, and publishing to JFrog Artifactory.</li>
+                    <li>Supported Docker and containerd image build processes and publishing to JFrog Container Registry for OpenShift and Kubernetes workloads.</li>
+                    <li>Triggered BMC Deployment Manager jobs using reusable deployment templates across OpenShift, VM, and WebSphere environments.</li>
+                    <li>Troubleshot CI/CD pipeline failures, deployment blockers, environment configuration issues, and supported next-gen operations using Tekton and Harness.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <span class="job-title">Tata Consultancy Services (TCS)</span>
+                    <span class="job-date">Sept 2021 – Jan 2022</span>
+                </div>
+                <p><em>Google Cloud Engineer | Cloud Migration Team</em></p>
+                <ul>
+                    <li>Supported a cloud-migration team moving application workloads and deployment processes to Google Cloud Platform.</li>
+                    <li>Monitored and triaged Google Cloud Build pipeline failures across GCP projects, analyzing build logs, configuration errors, and permissions.</li>
+                    <li>Supported Google Cloud Build CI/CD workflows for automated build, test, and deployment processes tied to source-code changes.</li>
+                    <li>Automated infrastructure and configuration activities using Terraform and Google Deployment Manager, improving consistency.</li>
+                    <li>Supported Jenkins and Google Cloud Build automation that increased release frequency by 35%.</li>
+                    <li>Documented recurring build issues, troubleshooting procedures, and resolution patterns to improve support efficiency.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <span>Certified Kubernetes Administrator (CKA) — Edureka</span>
+                    <span>2026</span>
+                </div>
+                <div class="cert-item">
+                    <span>Generative AI Fundamentals — Databricks</span>
+                    <span>2025</span>
+                </div>
+                <div class="cert-item in-progress">
+                    <span>Google Cloud Generative AI Leader</span>
+                    <span>In Progress</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="experience-item">
+                <p><strong>Bachelor of Science in Information Systems</strong></p>
+                <p>The University of Texas at Arlington | 2019 – 2021</p>
+            </div>
+        </section>
     </div>
 
-
-
-    <section>
-
-        <h2>Technical Skills</h2>
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-
-                <strong>Cloud & Ops</strong><br>
-
-                 AWS, GCP, Azure, Terraform, Ansible
-
-            </div>
-
-            <div class="skill-card">
-
-                <strong>Containers</strong><br>
-
-                 Kubernetes (CKA), Docker, Tekton
-
-            </div>
-
-            <div class="skill-card">
-
-                <strong>Observability</strong><br>
-
-                 ELK Stack, Prometheus, Grafana, App Dynamics
-
-            </div>
-
-            <div class="skill-card">
-
-                <strong>Scripting</strong><br>
-
-                 Python, Java, Bash, JavaScript
-
-            </div>
-
-            <div class="skill-card">
-
-                <strong>Splunk Enterprise SRE</strong><br>
-
-                 Managing 20+ cluster masters and 1000s of peers for cybersecurity feeds.
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <section>
-
-        <h2>Professional Experience</h2>
-
-        
-
-        <div class="experience-item">
-
-            <div class="job-header">
-
-                <span class="job-title">DevOps Engineer | CitiGroup</span>
-
-                <span class="job-date">Jan 2022 - Current</span>
-
-            </div>
-
-            <ul>
-
-                 <li>Engineered end-to-end CI/CD pipelines using Jenkins and Tekton, reducing deployment time by 45%.</li>
-
-                 <li>Participated in SRE on-call rotation, triaging incidents and coordinating weekend production releases.</li>
-
-                 <li>Automated infrastructure provisioning with Terraform and Ansible across AWS and GCP.</li>
-
-                 <li>Enhanced reliability by implementing GCP-native monitoring and integrating ELK Stack.</li>
-
-                 <li>Led Splunk Enterprise SRE operations, maintaining over 20 cluster masters and 1000s of peers for cybersecurity feeds, including advanced monitoring, custom dashboards, and real-time threat detection.</li>
-
-            </ul>
-
-        </div>
-
-
-
-        <div class="experience-item">
-
-            <div class="job-header">
-
-                <span class="job-title">Google Cloud Engineer | TCS</span>
-
-                <span class="job-date">Sep 2021 - Jan 2022</span>
-
-            </div>
-
-            <ul>
-
-                 <li>Accelerated release frequency by 35% through Jenkins and Google Cloud Build workflows.</li>
-
-                 <li>Reduced manual configuration overhead by 50% using Terraform and Google Deployment Manager.</li>
-
-                 <li>Designed scalable VPC and subnet architectures for high availability.</li>
-
-            </ul>
-
-        </div>
-
-    </section>
-
-
-
-    <section>
-
-        <h2>Certifications</h2>
-
-        <div class="cert-list">
-
-            <div class="cert-item">
-
-                <span>Certified Kubernetes Administrator (CKA)</span>
-
-                <span>2026</span>
-
-            </div>
-
-            <div class="cert-item">
-
-                <span>Generative AI Fundamentals (Databricks)</span>
-
-                <span>2025</span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <section>
-
-        <h2>Education</h2>
-
-        <div class="experience-item">
-
-            <p><strong>B.S. in Information Systems</strong></p>
-
-            <p>The University of Texas at Arlington |  2019 - 2021</p>
-
-        </div>
-
-    </section>
-
-
-
-</div>
-
-
-
-<footer>
-
-    <p>&copy; 2026 Prasanna Mainali. All Rights Reserved.</p>
-
-</footer>
-
-
-
+    <footer>
+        <p>&copy; 2026 Prasanna Mainali. All Rights Reserved.</p>
+    </footer>
 </body>
-
 </html>
